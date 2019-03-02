@@ -2,6 +2,10 @@ body
 {
     background-image: url(../lab1/images/background.jpg);
 }
+div form{
+    width: 50%;
+    align-content: center
+}
 h1 {
     background-color:#48D4B1;
 }
