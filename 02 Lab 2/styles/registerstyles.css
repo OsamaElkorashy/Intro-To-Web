@@ -1,0 +1,60 @@
+body
+{
+    /* background-image: url("../lab1/background.jpg")*/
+}
+h1 {
+    background-color:#48D4B1;
+}
+h1 font{
+    color: aliceblue;
+}
+legend
+{
+    font-size: 30px;
+    font-style: bold;
+}
+/*
+To make circle around  the number inside legend
+*/
+legend span
+{
+    border-radius: 40px;
+    behavior: url(PIE.htc);
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #45D2B0;
+    color: #666;
+    text-align: center;
+    font: 25px Arial, sans-serif;
+    background-color: #45D2B0;
+    margin: 10px;
+}
+input[type="password"], input[type="text"] ,input[type="file"] 
+, input[type="number"] , select ,input[type="color"]
+,input[type="email"] , input[type="url"] 
+,input[type="date"] ,input[type="range"] 
+{
+    
+    border: 1px solid #a1a3a3;
+    border-radius: 4px;
+    box-shadow: 0 1px #fff;
+    box-sizing: border-box;
+    color: #696969;
+    height: 40px;
+    margin: 15px 0 0 20px;
+    padding-left: 15px;
+    transition: box-shadow 0.3s;
+    width: 170px;
+}
+input[type="submit"] ,input[type="reset"]{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width:130px;
+    background-color: #45D2B0;
+    font-size:20px;
+    height:45px;
+    background-color:#48D4B1;
+    color: aliceblue;
+}

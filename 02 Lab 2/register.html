@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <title>Register Form</title>
+            <link rel="stylesheet"  href="styles/registerstyles.css">
+            <center>
+                <h1>
+                    <font>Contact Us</font
+                        </h1>
+                        </center>
+                    </head>
+                <form>
+                    <fieldset>
+                        <legend> <span> 1 </span>Account Information</legend>
+                        <table>
+                            <tr>
+                                <td>User Name * </td>
+                                <td><input type="text" required></td>
+                            </tr>
+                            <tr>
+                                <td>Password * </td>
+                                <td><input type="password" required></td>
+                            </tr>
+                            <tr>
+                                <td>Confirm Password * </td>
+                                <td><input type="password" required></td>
+                            </tr>
+                            <tr>
+                                <td>Credit Number </td>
+                                <td><input type="number"></td>
+                            </tr>
+                        </table>
+                        <!---------- End of Table ----------->
+                    </fieldset>
+                    <fieldset>
+                        <legend><span> 2 </span>Personal Information</legend>
+                        <table>
+                            <tr>
+                                <td> Name* </td>
+                                <td><input type="text" required></td> <br>
+                            </tr>
+                            <tr>
+                                <td> Date of Birht * </td>
+                                <td><input type="date" id="myBD" required></td>
+                            </tr>
+                            <tr>
+                                <td> Favourite Color </td>
+                                <td><input type="color" id="favcolor"></td>
+                            </tr>
+                            <tr>
+                                <td> Profile Photo(s) </td>
+                                <td><input type="file" id="docpicker"
+                                           accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>  Favourite Browser </td>
+                                <td> <select>
+                                    <option value="chrome">Chrome</option>
+                                    <option value="fireFox">Fire Fox</option>
+                                    <option value="opera">Opera Mini</option>
+                                    </select></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend><span> 3 </span>Company Information</legend>
+                        <table>
+                            <tr>
+                                <td>No of Employees</td>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>Estimated Revenue</td>
+                                <td><input type="range" min="1" max="50"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend><span> 4 </span>Contact Information</legend>
+                        <table>
+                            <tr>
+                                <td>Email Address(es)*</td>
+                                <td><input type="email" id="usremail" required></td>
+                            </tr>
+                            <tr>
+                                <td>Phone Number</td>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>Website URL</td>
+                                <td><input type="url" ></td>
+                            </tr>
+                        </table>
+                    </fieldset><br>
+                    <center>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Cancel" >
+                    </center>
+                </form>
+
+                </body>
+            </html>

@@ -1,0 +1,143 @@
+/*
+Apply these effects on all elements inside my page
+*/
+*{ 
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box; /*This line to save Dimensions of element
+    when I divide my Layout in the Future*/
+    box-sizing : border-box
+}
+body /* Choose font-family and add bg image */
+{
+    font-family: sans-serif;
+     background-image: url(../lab1/background.jpg);
+}
+ul /* remove bults from right aside */ 
+{
+list-style: none 
+}
+.clearfix 
+{
+    clear: both
+}
+
+/*Start Header which has class="main" */
+.main
+{
+    background-color: #333;
+    color: #DDD;
+    padding: 20px;
+    text-align: center
+}
+main /* main tag*/
+{
+    background-color: #EEE;
+    padding: 20px
+}
+main p /*main tag pharagraph */
+{
+    text-align: center;
+}
+
+main p span /*main tag pharagraph  span */
+{
+    font-weight: bold;
+    color: forestgreen
+}
+nav /* nav tag */
+{
+    background-color:#DDD; 
+}
+nav ul /* apply effects on ul which inside nav*/
+{
+    padding: 20px;
+    text-align: center
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 5px
+}
+nav ul li:after /* add | after each li*/
+{
+    content: " |"
+}
+nav ul li:last-child:after /* To Remove | Form Last Child in Nav */
+{
+    content: "";
+}
+.post article section img 
+{
+   width: 200px
+}
+
+/*End Header*/
+.post{
+    width: 70%;
+    float: left
+}
+/*Start Article*/
+.post article
+{
+    background-color: #F6F6F6;
+    border: 1px solid #CCC;
+    margin: 20px
+}
+/*End Header*/
+.post article header
+{
+    background-color: #E2E2E2;
+    padding: 10px
+}
+.post article header h3
+{
+  color: green
+}
+.post article section
+{
+    padding: 10px
+}
+.post article section p
+{
+    text-align: center
+   font-size: 20px;
+   background-color: aliceblue    
+}
+aside{
+    float: right;
+    width: 30%
+}
+aside section {
+    background-color: #EEE;
+    margin: 20px ;
+    padding: 10px ; 
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+aside section h3{
+    background-color: darkseagreen; 
+    text-align: center
+}
+aside section ul , article section p ul {
+   margin-top: 10px
+}
+aside section ul li , article section p ul li{
+   line-height: 2.7
+}
+
+footer
+{
+    background-color: #333;
+    color: #DDD;
+    padding: 10px;
+    text-align: center
+}
+
+
+
+
+
+

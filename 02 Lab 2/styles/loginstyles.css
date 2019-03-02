@@ -1,0 +1,42 @@
+body
+{
+    background-image: url(../lab1/background.jpg);
+}
+#label
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+input[type="password"], input[type="text"] {
+    border: 1px solid #a1a3a3;
+    border-radius: 4px;
+    box-shadow: 0 1px #fff;
+    box-sizing: border-box;
+    color: #696969;
+    height: 40px;
+    margin: 15px 0 0 20px;
+    padding-left: 15px;
+    transition: box-shadow 0.3s;
+    width: auto;
+    font-size: 15px;
+}
+input[type="submit"] {
+    width:200px;
+    background-color: #45D2B0;
+    font-size:20px;
+    height:35px;
+    border-radius: 4px;
+}
+input[type="checkbox"] {
+    margin-left: 100px;
+    
+}
+table{
+    width: 200px;
+    margin: 0 auto;
+    padding: 30px
+}
+th {
+    text-align: center;
+}
