@@ -1,11 +1,14 @@
 var i;
+
+function DrawTable()
+{
 document.write("<table border=1 style='width:350px;'>");
-for(i=0 ; i <11 ;i++)
+for(i=0 ; i <=10 ;i++)
 {
     document.write("<tr><td>"+i+"</td><td>"+factorial(i)+"</td> </tr>");
 }
 document.write("</table>");
-
+}
 function FindFactorial()
 {
     var number;
