@@ -6,18 +6,6 @@ for(i=0 ; i <11 ;i++)
 }
 document.write("</table>");
 
-function factorial(number)
-{
-    if(number <= 1)
-    {
-        return 1;
-    }
-    else
-    {
-        return number * factorial(number-1);
-    }
-}
-
 function FindFactorial()
 {
     var number;
@@ -30,4 +18,15 @@ function FindFactorial()
     }
 	while(number < 0);
     alert("Factorila of "+ number+"  = "+factorial(number));
+}
+function factorial(number)
+{
+    if(number <= 1)
+    {
+        return 1;
+    }
+    else
+    {
+        return number * factorial(number-1);
+    }
 }
